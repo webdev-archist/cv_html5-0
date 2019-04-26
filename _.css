@@ -1,0 +1,1 @@
+main>section:not(.on)>*:not(h2){display:none;}

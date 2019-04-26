@@ -1,0 +1,87 @@
+body{border:solid}
+header>h1{    font-family: 'Orbitron', cursive;}
+header>h1>a:not(:last-of-type):after{content:"/";position:absolute;top:0;right:-.25em;font-size:1.5em}
+h1>a:not(:last-of-type):after{content:"/";position:absolute;top:0;right:-.25em;font-size:1.5em}
+header>h1+p>a{border: 1px solid black;    border-radius: 5px;    box-shadow: 1px 1px 10px 0.00001px black inset;}
+header>h1+p i:not(#poids){    font-size: .8em;    line-height: 2em;}
+
+
+
+
+
+
+body>header>section.row>*{box-shadow: 0 0 10px 1px black inset;margin:0}
+body>header>section.row>ul,dl.row.card-body>dt{font-family:'Indie Flower'; font-size:1.5em}
+body>header>section.row button.header-section-item-btn{position: absolute;left: 2%;bottom: 102%;width: 96%;height: 5em;}
+figure img:not(#o){height: 250px;}
+figure>*{position:relative}
+figure>.carousel-inner{position:absolute;left:0;}
+.carousel-item{padding-bottom:4em;    margin-top: 3em;}
+.carousel-item>.carousel-caption{top:80%;bottom:0;padding:0;    background: rgba(0,0,0,.5);    border-radius: 5px;    box-shadow: 0 0 10px 1px black;}
+.carousel-item>.carousel-caption>p{margin:0;    font-family: 'indie flower';}
+.carousel-item>.carousel-caption>h5{color:wheat;border-bottom:1px dotted white;    font-family: orbitron;}
+#head_carousel:not(:hover) a[class^=carousel-control]{opacity:0}
+a[class^=carousel-control]{transition:background .7s,opacity .7s;opacity:.7;}
+a[class^=carousel-control]:hover{background:rgba(250,250,250,.5);opacity:1;}
+figure>legend{    font-family: 'Orbitron', cursive;    letter-spacing: -1px;    font-weight: 900;;color: wheat;text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black;}
+figure>figcaption{color: wheat;    text-shadow: 0 0 1px black, 0 0 2px black, 0 0 2px white, 0 0 10px white, 0 0 20px white;    opacity: .7;}
+figure>figcaption span{ display:block;    -webkit-box-reflect: below -13px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255, 255, 255, 0.5)));}
+figure>figcaption p{float:right;font-size:2em;-webkit-text-stroke: 0.01em orange;}
+figure>figcaption p:nth-of-type(n+3){float:left}
+figure>figcaption p:nth-of-type(2n+2){margin:0 1em;}
+/*
+figure>figcaption p:first-of-type{margin-right:3em}
+figure>figcaption p:nth-of-type(3){margin-left:3em}
+*/
+dt{width:20%;margin-left:5%;text-align:center;color:#28a745;text-shadow:0 0 1px black,0 0 1px black,0 0 1px black}
+dt:not(.safe){line-height:5em;}
+dd{width:70%;font-family:'concert one';font-size:1.4em;padding-left:1em;position:relative;z-index:0;color: black;
+    text-shadow: -3px -3px 1px grey, -2px -2px 2px silver, -1px -1px 3px black;}
+dd>span,dd>strong,dd>b{text-shadow:none}
+dt,dd{border-top:1px dotted;}
+/*
+dt:nth-of-type(2n+1){background:linear-gradient(whitesmoke, white, rgba(0,0,0,.5));}
+dt:nth-of-type(2n){background:linear-gradient(rgba(0,0,0,.5), white, whitesmoke);}
+*/
+section:nth-of-type(2n+1){background:linear-gradient(whitesmoke, white, rgba(0,0,0,.5));}
+section:nth-of-type(2n){background:linear-gradient(rgba(0,0,0,.5), white, whitesmoke);}
+.certifs>a{height:unset;}
+dl{/*padding: 0 0 0 10% !important*/overflow:hidden}
+dl>*{}
+dl b{color:goldenrod}
+dl strong{color:#17a2b8}
+.card .card_header{background:linear-gradient(black, #343a40, rgba(0,0,0,.5));border-bottom:solid orange;font-family:orbitron}
+.badge{font-family:arial}
+dd>div{float:right}
+dd:before{content:"";position:absolute;bottom:0;right:20%;width:200px;height:100%;z-index:-1;opacity:.8;border-radius:10px}
+dd.ocr_gg_w3:before{background:url(imgs/ocrggw3.png) bottom right no-repeat;background-size:contain;}
+dd.emweb:before{background:url(imgs/emweb.png) bottom right no-repeat;background-size:contain;}
+dd.unice:before{background:url(imgs/ufr_nice-sophia.png) bottom right no-repeat;background-size:contain;}
+dd.amiens:before{background:url(imgs/academie_amiens.png) bottom right no-repeat;background-size:contain;}
+dd.ad13:before{background:url(imgs/ad13.jpg) bottom right no-repeat;background-size:contain;}
+dd.pda:before{background:url(imgs/puissance-divine-amour.png) bottom right no-repeat;background-size:contain;}
+dd.yere_zv:before{background:url(imgs/yere_zv.png) bottom right no-repeat;background-size:contain;}
+dd.en:before{background:url(imgs/anglais.png) bottom right no-repeat;background-size:contain;}
+dd.fr:before{background:url(imgs/francais.png) bottom right no-repeat;background-size:contain;}
+dd.es:before{background:url(imgs/espagnol.png) bottom right no-repeat;background-size:contain;}
+dd.jp:before{background:url(imgs/japonais.png) bottom right no-repeat;background-size:contain;}
+
+main{}
+main>section{}
+main>section>nav{}
+main>section>nav>a{height:60px;}
+main>section>nav>a>*{}
+main>section>nav span{ }
+main>section>nav img{width:75px;    border: 1px solid orange;    background: whitesmoke;}
+
+
+.hobbies i:not(.material-icons){font-size:24px;font-weight:bold}
+.hobbies span{font-weight:bold}
+
+
+
+
+
+
+
+
